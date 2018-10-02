@@ -12,6 +12,9 @@ public class Hello {
         float weight = 52.5f;		
         System.out.println(schoolYear);
         System.out.println(weight);
+        float num = 12.2f;
+        System.out.println(num);
+        		
         
     }
 }
