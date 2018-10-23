@@ -1,15 +1,28 @@
 package com.tom;
 
+import java.util.Scanner;
+
 public class Hello {
 
 
+	private static Student stu;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Your name");
+		String name =scanner.nextLine();
+		System.out.println(name);
+		
+		
+		
 		Student stu = new Student();
 		stu.name = "wang";
 		stu.english =70;
 		stu.math = 90;
 		stu.print();
+	
 		
 		
 		System.out.println( 4 <= 5 );
@@ -20,17 +33,10 @@ public class Hello {
 		
 		System.out.println(s3==s4);
 		
-		
 		String s1 = new String("abc");
 		String s2 = new String ("abc");
 		
 		System.out.println(s1.equals(s2));
-		
-		
-		
-		
-		
-		
 		
 		
 		
@@ -46,7 +52,6 @@ public class Hello {
 //		int english = 95;
 //		int math = 75 ;
 //		System.out.println(name + "\t" + english + "\t" + math +"\t" +(english+math)/2 );
-		
 		
 //       int age = 18;
 //       String name = "melissa";
