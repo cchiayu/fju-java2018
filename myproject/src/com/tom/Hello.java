@@ -1,5 +1,6 @@
 package com.tom;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Hello {
@@ -8,45 +9,60 @@ public class Hello {
 	private static Student stu;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Your name");
-		String name =scanner.nextLine();
-		System.out.println(name);
 		
 		
+		int d = 5/3;
+		int m = 5%3;
+		System.out.println(d);
+		System.out.println(m);
 		
-		Student stu = new Student();
-		stu.name = "wang";
-		stu.english =70;
-		stu.math = 90;
-		stu.print();
+		
+		float n = 21.25f;
+		String name = "kk";
+		System.out.printf("Hi, %s, Your age = %.2f\n" , name , n);
+		
+		double C = 24;
+		System.out.println(C*(9.0/5)+32);
+		
+		
+		
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.println("Your name");
+//		String name =scanner.nextLine();
+//		System.out.println(name);
+		
+		
+			
+//		Student stu = new Student();
+//		stu.name = "wang";
+//		stu.english =70;
+//		stu.math = 90;
+//		stu.print();
 	
 		
 		
-		System.out.println( 4 <= 5 );
-		System.out.println(3 >= 6 );
+//		System.out.println( 4 <= 5 );
+//		System.out.println(3 >= 6 );
+//		
+//		String s3 = new String ("717");
+//		String s4 = new String ("717");
+//		
+//		System.out.println(s3==s4);
+//		
+//		String s1 = new String("abc");
+//		String s2 = new String ("abc");
+//		
+//		System.out.println(s1.equals(s2));
 		
-		String s3 = new String ("717");
-		String s4 = new String ("717");
-		
-		System.out.println(s3==s4);
-		
-		String s1 = new String("abc");
-		String s2 = new String ("abc");
-		
-		System.out.println(s1.equals(s2));
 		
 		
-		
-		Person won = new Person(60.5f,1.82f);
-	    won.height = 1.82f;
-	    won.weight = 60.5f;
-	    float height = won.height;
-	    float weight = won.weight;
-		float bmi = weight / (height*height);
-	    System.out.println(bmi);
+//		Person won = new Person(60.5f,1.82f);
+//	    won.height = 1.82f;
+//	    won.weight = 60.5f;
+//	    float height = won.height;
+//	    float weight = won.weight;
+//		float bmi = weight / (height*height);
+//	    System.out.println(bmi);
 				
 //		String name = "jack";
 //		int english = 95;
