@@ -11,8 +11,18 @@ public class Temperature {
 		Scanner scanner = new Scanner(System.in);
 		double c = scanner.nextDouble();
 		Temperature temp = new Temperature(c);
-		
 	}
+		
+		public double fahrenheit(){
+			double f = celsius * (9.0/5) +32;
+			return f;
+			
+			
+		}
+			
+	
+	           
+		
 	private double celsius;
 	
 	public Temperature(double c){
@@ -20,11 +30,6 @@ public class Temperature {
 		this.celsius = celsius;
 		
 	}
-	public double fahrenheit(){
-	double f = celsius * (9.0/5) +32;
-	return f;
 	
-	}
 	
-
 }
