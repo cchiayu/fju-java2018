@@ -10,27 +10,38 @@ public class Hello {
 
 	public static void main(String[] args) {
 		
-		
-		int d = 5/3;
-		int m = 5%3;
-		System.out.println(d);
-		System.out.println(m);
-		
-		
-		float n = 21.25f;
-		String name = "kk";
-		System.out.printf("Hi, %s, Your age = %.2f\n" , name , n);
-		
-		double C = 24;
-		System.out.println(C*(9.0/5)+32);
+		int i =0;
+		for(i = 1; i<=3;i++){
+			System.out.println(i);
+		}
+		System.out.println(i);
 		
 		
+		
+		
+		
+		
+		
+		
+		
+//		int d = 5/3;
+//		int m = 5%3;
+//		System.out.println(d);
+//		System.out.println(m);
+		
+		
+//		float n = 21.25f;
+//		String name = "kk";
+//		System.out.printf("Hi, %s, Your age = %.2f\n" , name , n);
+		
+//		double C = 24;
+//		System.out.println(C*(9.0/5)+32);
+
 		
 //		Scanner scanner = new Scanner(System.in);
 //		System.out.println("Your name");
 //		String name =scanner.nextLine();
 //		System.out.println(name);
-		
 		
 			
 //		Student stu = new Student();
@@ -38,22 +49,18 @@ public class Hello {
 //		stu.english =70;
 //		stu.math = 90;
 //		stu.print();
-	
 		
 		
 //		System.out.println( 4 <= 5 );
 //		System.out.println(3 >= 6 );
-//		
 //		String s3 = new String ("717");
 //		String s4 = new String ("717");
-//		
 //		System.out.println(s3==s4);
-//		
+
+		
 //		String s1 = new String("abc");
 //		String s2 = new String ("abc");
-//		
 //		System.out.println(s1.equals(s2));
-		
 		
 		
 //		Person won = new Person(60.5f,1.82f);
@@ -64,10 +71,12 @@ public class Hello {
 //		float bmi = weight / (height*height);
 //	    System.out.println(bmi);
 				
+		
 //		String name = "jack";
 //		int english = 95;
 //		int math = 75 ;
 //		System.out.println(name + "\t" + english + "\t" + math +"\t" +(english+math)/2 );
+		
 		
 //       int age = 18;
 //       String name = "melissa";
@@ -84,15 +93,6 @@ public class Hello {
 //       System.out.println(num);
 //       System.out.println(bmi);
 //       System.out.println(age);
-       
-        
-        
-      
-        
-        
-        
-        
-        
         
         
     }
