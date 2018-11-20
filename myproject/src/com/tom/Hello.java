@@ -10,13 +10,16 @@ public class Hello {
 
 	public static void main(String[] args) {
 		
-		int i =0;
-		for(i = 1; i<=3;i++){
-			System.out.println(i);
-			
-		}
+//		int i =0;
+//		for(i = 1; i<=3;i++){
+//			System.out.println(i);
+//			
+//		}
+//		
+//		System.out.println(i);
 		
-		System.out.println(i);
+		Student stu = new Student("jack", 95, 30 );
+		stu.print();
 		
 		
 		
@@ -67,12 +70,7 @@ public class Hello {
 //		float bmi = weight / (height*height);
 //	    System.out.println(bmi);
 				
-		
-//		String name = "jack";
-//		int english = 95;
-//		int math = 75 ;
-//		System.out.println(name + "\t" + english + "\t" + math +"\t" +(english+math)/2 );
-		
+
 		
 //       int age = 18;
 //       String name = "melissa";

@@ -36,6 +36,7 @@ package com.tom;
 			int num = -1;
 			int min = 1;
 			int max = 10;
+			int count = 1;
 			int guess = scanner.nextInt();
 			while (secret!=guess ) {
 				if (secret < guess) {
@@ -44,17 +45,19 @@ package com.tom;
 				if	(secret > guess);
 					System.out.println("higher");
 				}
-				System.out.printf("Your guess: " + "%s" , guess );
+				System.out.printf("Your guess ("+ count +"/4):"  );
+				
 				guess = scanner.nextInt();//guess again
+				count++;
 			}
-			System.out.printf("Great! The secret number is " + "%s",secret);
-		}
-		}
+				
+			System.out.printf("Execellent! The secret number is " + "%s",secret);
+		
+	
+				if(count>2){
 			
-
-
-	
-	
-	
-	
-	
+			System.out.println("Great! The secret number is "+ secret);
+				}
+			}
+				
+					}
