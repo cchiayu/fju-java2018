@@ -10,7 +10,7 @@ public class Student {
 	
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.print(name + "\t" + english + "\t" + math +"\t" + getAverage()+"\t") ;
+		System.out.print(name + "\t" + english + "\t" + math +"\t" + getAverage()+"\t"+getAverage1()+"\t" );
 		if (english>math){
 			System.out.print(english+"\t");
 		}else{
@@ -49,6 +49,7 @@ public class Student {
 				default:
 					grading = 'F';
 				}
+			return grading;
 		}
 
 
